@@ -339,9 +339,24 @@ Face-swapping technology can create realistic synthetic media. Use this project 
 
 Do not use generated content to impersonate people, deceive others, violate privacy, or misrepresent synthetic media as authentic.
 
-## Attribution
+## Third-Party Software
+This project incorporates and modifies third-party code from SimSwap, associated with the work:
 
-This project uses [SimSwap](https://github.com/neuralchen/SimSwap), an open-source face-swapping framework licensed under CC BY-NC 4.0.
+SimSwap: An Efficient Framework for High Fidelity Face Swapping
+Renwang Chen, Xuanhong Chen, Bingbing Ni, and Yanhao Ge.
+
+Official SimSwap repository:
+https://github.com/neuralchen/SimSwap
+
+SimSwap is distributed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. The original SimSwap license is retained in:
+
+SimSwap/LICENSE
+
+Modifications have been made to the original SimSwap code for integration with this project's video-processing and backend workflow. These modifications should not be interpreted as being endorsed by or affiliated with the original SimSwap authors.
+
+This project also uses third-party libraries and components associated with the SimSwap pipeline, including projects such as InsightFace. Such components may be subject to their own respective licenses and terms of use.
+
+Users of this repository are responsible for complying with the applicable licenses and terms of all third-party software and pretrained models used by the project.
 
 ## Repository
 
